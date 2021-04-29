@@ -1,5 +1,5 @@
 # Template-Design-Practice
-# Html / Csss / Bootstrap
+# Html / Css / Bootstrap
 
 # After custom css
 <img src="after_css.png">
