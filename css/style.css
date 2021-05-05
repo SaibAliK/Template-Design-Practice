@@ -17,7 +17,11 @@ section {
   --Lobster: "Lobster", cursive;
   --light-black: #2e2c2caf;
   --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-  --covergradient: linear-gradient(4deg, rgba(196,13,13,1) 20%, rgba(230,131,89,1) 80%);
+  --covergradient: linear-gradient(
+    4deg,
+    rgba(196, 13, 13, 1) 20%,
+    rgba(230, 131, 89, 1) 80%
+  );
   --light-gray: rgba(255, 255, 255, 0);
 }
 
@@ -52,53 +56,53 @@ header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
 }
 
-header .col .col-md-5 img{
+header .col .col-md-5 img {
   width: 90%;
 }
 
-header .row .col-md-7{
+header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
   font-family: var(--Rubik);
   color: white;
 }
 
-header .row .col-md-7 h6{
+header .row .col-md-7 h6 {
   padding: 1vmin;
   letter-spacing: 4px;
 }
 
-header .row .col-md-7 h1{
+header .row .col-md-7 h1 {
   padding: 0.1em 0em;
   font-size: 8vmin;
   font-weight: bold;
 }
 
-header .row .col-md-7 p{
+header .row .col-md-7 p {
   padding: 1vmax 5vmin;
 }
 
-header .row .col-md-7 button{
+header .row .col-md-7 button {
   border-radius: 30px;
   font-weight: bold;
 }
 
 /* section 1 */
-.section_1{
+.section_1 {
   padding: 15vmin 0;
 }
 
-.section_1 .row .col-md-6 .pray img{
+.section_1 .row .col-md-6 .pray img {
   width: 85%;
   /*opacity: 0.9;*/
   border-radius: 0.2em;
 }
 
-.section_1 .row .col-md-6:last-child{
+.section_1 .row .col-md-6:last-child {
   position: relative;
 }
 
-.section_1 .row .col-md-6 .panel{
+.section_1 .row .col-md-6 .panel {
   position: absolute;
   top: 12vmin;
   left: -18vmin;
@@ -111,18 +115,18 @@ header .row .col-md-7 button{
   z-index: 1;
 }
 
-.section_1 .row .col-md-6 .panel h1{
+.section_1 .row .col-md-6 .panel h1 {
   font-weight: bold;
   font-size: 2em;
   padding: 0.4em 0em 0em 0em;
 }
 
-.section_1 .row .col-md-6 .panel p{
+.section_1 .row .col-md-6 .panel p {
   font-size: 0.9em;
-  color: rgb(00,00,0.5); 
+  color: rgb(00, 00, 0.5);
 }
 
-.cover{
+.cover {
   width: 100%;
   height: 55vmin;
   background: var(--covergradient);
@@ -132,26 +136,26 @@ header .row .col-md-7 button{
   position: relative;
 }
 
-.cover .content{
-  background: rgba(0,0,0,0.3);
+.cover .content {
+  background: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
   padding-top: 19vmin;
 }
 
-.cover .content > h1{
+.cover .content > h1 {
   font-family: var(--Patua);
   font-size: 6vmin;
   color: whitesmoke;
 }
 
-.cover .content > p{
+.cover .content > p {
   font-family: var(--Rubik);
   font-size: 2vmin;
   color: rgb(255, 247, 247);
 }
 
-.number .rect{
+.number .rect {
   position: relative;
   z-index: 1;
   width: 17rem;
@@ -163,136 +167,135 @@ header .row .col-md-7 button{
   box-shadow: 1px 2px 30px 0px rgba(255, 00, 00, 0.3);
 }
 
-.number{
+.number {
   margin-top: -15vmin;
 }
 
-.number .rect h1{
+.number .rect h1 {
   font-size: 5rem;
   color: tomato;
 }
 
-.number .rect p{
+.number .rect p {
   font-family: var(--Rubik);
 }
 
-.purchase >h1{
+.purchase > h1 {
   padding-top: 15vmin;
   padding-bottom: 0.1em;
   font-family: var(--Lobster);
 }
 
-.purchase >p{
+.purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
   padding-bottom: 10vmin;
 }
 
-.purchase .cards .card{
+.purchase .cards .card {
   width: 22rem;
   margin: 3vmin;
 }
 
 .purchase .cards .card:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
-.cards div{
+.cards div {
   padding: 0;
   margin: 0;
 }
 
-.cards .card .title{
+.cards .card .title {
   padding: 1.4rem 2.5rem;
   background: #eeeeee;
   font-size: 2vmin;
 }
 
-.cards .card .card-text{
+.cards .card .card-text {
   padding: 2.4rem 3rem;
   color: var(--light-black);
 }
 
-.cards .card-body .pricing{
+.cards .card-body .pricing {
   background: #eeeeee;
   color: black;
   border-top-right-radius: 170px;
-  border-top-left-radius: 170px ;
+  border-top-left-radius: 170px;
 }
 
-.card-body .pricing h1{
+.card-body .pricing h1 {
   font-size: 10vmin;
   padding: 2rem 0.5rem;
 }
 
-.card-body a{
+.card-body a {
   margin-top: 10vmin;
 }
 
 /* section-4 */
 
-.section_4 .container-fluid h1{
+.section_4 .container-fluid h1 {
   font-size: 6vmin;
   padding-top: 14vmin;
 }
 
-.section_4 .team{
+.section_4 .team {
   padding: 10vmin 4vmin;
 }
 
-.section_4 .card{
+.section_4 .card {
   width: 22rem;
   padding-top: 10vmin;
 }
 
-.section_4 .card .card-text{
+.section_4 .card .card-text {
   padding: 0.5em;
 }
 
-.section_4 .card .card-body >a{
+.section_4 .card .card-body > a {
   font-size: 1.5em;
 }
 
-.section_4 .carousel-item{
+.section_4 .carousel-item {
   padding-left: 0rem;
 }
 
-.border-radius{
+.border-radius {
   width: 60%;
   border-radius: 350px;
 }
 
-
 /* footer */
 
-footer{
+footer {
   padding: 14vmin 18vmin;
   background: rgba(00, 00, 00, 0.815);
   overflow-x: hidden;
 }
 
-footer p>span{
+footer p > span {
   color: chocolate;
 }
 
-footer input{
+footer input {
   border: none !important;
 }
 
-footer input{
+footer input {
   height: 28px !important;
 }
 
-footer input::placeholder{ 
+footer input::placeholder {
   color: white !important;
 }
 
-footer .input-group .input-group-text{
+footer .input-group .input-group-text {
   border: none;
   background: var(--bggradient);
 }
 
-footer .column i{
-color: #ff512f;
-margin-right: 7px;
+footer .column i {
+  color: #ff512f;
+  margin-right: 7px;
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Template_Practice",
+  "version": "1.0.0",
+  "description": "by following this tutorial (https://www.youtube.com/watch?v=zhllkjYYUVE&list=LL&index=3)\r # Html / Css / Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibniazi/Template_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saibniazi/Template_Practice/issues"
+  },
+  "homepage": "https://github.com/saibniazi/Template_Practice#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
